@@ -17,3 +17,5 @@
 # Enter a number to sum, or 0 to indicate you are finished: 10
 # Enter a number to sum, or 0 to indicate you are finished: 0
 #The sum of your numbers is: 21
+1=raw_input("enter one number")
+2=raw_input("enter another number")
