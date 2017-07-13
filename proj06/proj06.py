@@ -46,3 +46,33 @@ def choose_word(wordlist):
 wordlist = load_words()
 
 # your code begins here!
+
+# welcome user
+name = raw_input("What is your name? ")
+print "Hello, " + name, "Time to play HANGMAN!!! "
+# word choose system
+word = choose_word(wordlist)
+# take out at end
+print word
+# start making wor ds
+str = "_"
+counter = 0
+l = len(word)
+print "I'm thinking of a word that is", + l, "letters long"
+while counter <= 8:
+    counter = counter + 1
+    guess = raw_input("Please guess a letter. ")
+    if guess in word:
+        print "correct"
+
+
+    if guess not in word:
+        print "incorrect"
+
+
+
+
+
+
+
+
